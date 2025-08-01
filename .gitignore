@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Visualization output directories
+coverage_simulation_*/
+coverage_v5_simulation_*/
+
+# Animation and image files
+*.gif
+*.png
+frame_*.png
+metrics*.png
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model checkpoints and training outputs
+models/
+checkpoints/
+logs/
+runs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
